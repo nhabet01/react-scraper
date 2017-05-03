@@ -1,0 +1,142 @@
+html {
+    position: relative;
+    min-height: 100%;
+    text-align: center;
+    font-family: Times, serif !important;
+}
+
+body {
+    margin-bottom: 62px;
+    height: auto;
+    /*color: white;*/
+    font-family: Times, serif !important;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: Times, serif !important;
+}
+
+.page-header,
+footer {
+    margin: 0;
+    background: #46617c;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 62px;
+    color: white;
+    
+}
+
+footer .container {
+    height: 61px;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+.result-div {
+    padding: 0;
+}
+
+.result-div,
+.result-holder,
+.query {
+    border-radius: 7px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 900px;
+}
+
+.result-holder,
+.query {
+    background: #46617c;
+    padding: 8px;
+}
+
+.form-control {
+    margin: 20px auto;
+    padding: 8px;
+    width: 90%;
+    max-width: 900px;
+}
+
+footer a,
+.page-header a {
+    color: inherit;
+}
+
+
+.selection-panel {
+    height: 45vh;
+    max-height: 480px;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 7px;
+    margin: 7px;
+}
+.main-main-container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.navbar-default {
+    background-color: #46617c;
+    border-color: transparent;
+    font-family: Times, serif !important;
+}
+
+.navbar-brand,
+.navbar-nav>li>a {
+    color: white !important;
+    font-family: Times, serif !important; 
+}
+
+.search-button {
+    width: 100px;
+}
+
+.header-links {
+    text-align: right;
+    padding: 0;
+}
+
+.title {
+    text-align: left;
+    padding: 0;
+}
+
+.page-header .container {
+    /*now navbar and container-fluid in header*/
+    padding: 0;
+}
+
+a:hover {
+    color: green !important;
+}
+.navbar-nav>li>a:hover {
+color: green !important;
+}
+
+
+.black-text {
+    color: black !important;
+}
+
+.btn-primary{
+    background: #2a4663;
+    border-color:#2a4663;
+}
